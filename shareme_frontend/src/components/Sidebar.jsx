@@ -67,9 +67,9 @@ const Sidebar = ({ user, closeSidebar }) => {
       {user && (
         <Link
           to={`user-profile/${user._id}`}
-          className="flex my-5 mb-3 gap-2 items-center rounded-lg shadow-lg"
+          className="flex my-5 mb-3 gap-2 items-center rounded-lg shadow-lg mx-3"
         >
-          <img src={logo} />
+          <img src={logo} className="w-50 h-10 rounded-full" />
         </Link>
       )}
     </div>
